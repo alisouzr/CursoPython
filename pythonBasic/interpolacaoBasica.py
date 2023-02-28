@@ -3,7 +3,7 @@ Interpolação básica de strings
 s - string
 d e i - int
 f - float
-x e X - Hexadecimal
+x e X - Hexadecimal 
 """
 
 nome = 'Luiz'

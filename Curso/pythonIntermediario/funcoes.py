@@ -8,4 +8,4 @@ def funcao(nome='Aliny', msg='Olá'):
 
 
 funcao()
-funcao('Alícya', 'Cara de bunda')
+funcao('Alícya', 'bacana')

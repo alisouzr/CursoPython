@@ -1,0 +1,1 @@
+print(f'Não existe G no nome')

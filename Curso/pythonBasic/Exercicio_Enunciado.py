@@ -4,13 +4,16 @@ informe se este número é par ou ímpar. Caso o usuário não digite um número
 inteiro, informe que não é um número inteiro.
 """
 
-int_number = int(input("Digite um número inteiro : "))
+number = input("Digite um número inteiro : ")
 
-if int_number%2 == 0:
-        print("Esse número é par")
+if number.isdigit():
+      int_number = int(number)
+      if int_number%2 == 0:
+            print(f"O número {int_number} é par.")
+      else:
+            print(f"O número {int_number} é ímpar.")
 else:
-        print("Esse número é ímpar")
-
+      print("Digite um número inteiro.")
 """
 Faça um programa que pergunte a hora ao usuário e, baseando-se no horário 
 descrito, exiba a saudação apropriada. Ex. 
@@ -23,8 +26,10 @@ if 0 <= int(hora) <= 11:
     print("Bom dia!")
 elif 12 <= int(hora) <= 17 :
     print("Boa tarde!")
-else:
+elif 18 <= int(hora) <= 23:
       print("Boa noite!")
+else:
+      print(f"Não conhheço essa hora {hora}")
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 

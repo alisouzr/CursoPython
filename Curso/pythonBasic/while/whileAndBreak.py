@@ -4,7 +4,7 @@ while (enquanto)
 Executa uma ação enquanto uma condição for verdadeira
 Loop infinito -> Quando um código não tem fim
 """
-condição = True
+""" condição = True
 
 while condição:
     nome = input("Qual o seu nome: ")
@@ -13,4 +13,10 @@ while condição:
     if nome == 'sair':
         break
 
-print('acabou.')
+print('acabou.') """
+
+contador = 0
+
+while contador <11:
+    print(contador)
+    contador+=1

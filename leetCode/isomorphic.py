@@ -11,4 +11,8 @@ def isIsomorphic(s: str, t: str) -> bool:
     return True if listas == listat else False
 
 
+<<<<<<< HEAD
 print(isIsomorphic("paper", "title"))
+=======
+print(isIsomorphic("lente", "dente"))
+>>>>>>> bce93cd1dbdbcb75d1a637af8d525cf52349f1d9
